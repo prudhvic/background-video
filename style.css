@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+video {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 34;
+  color: white;
+  display: grid;
+  place-items: center;
+  padding: 1em;
+
+  width: 100vw;
+  margin: 0 auto;
+  height: 100vh;
+  place-content: center;
+  text-align: center;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, .5);
+}
+button {
+  padding: 0.4rem 0.8em;
+  font-size: 1.4rem;
+  background-color: white;
+  border-radius: 7px;
+  
+  border: none;
+  outline: none;
+
+  font-weight: bold;
+  color: blueviolet;
+  letter-spacing: 2px;
+}
+.container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+
+}
+.content p {
+  font-size: 1.1rem;
+  color: aliceblue;
+  font-weight: 600;
+}
+h1 {
+  font-size: 2.6rem;
+  letter-spacing: 1.5px;
+}
+button:hover {
+  background-color: blueviolet;
+  color: white;
+  transition: 0.3s;
+}
+.footer{
+    
+    height: 40vh;
+    padding: 1em;
+    display: grid;
+    place-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align:center;
+    color:black;
+    gap:1em;
+    
+
+}
+.social{
+    display: flex;
+    gap: .6rem;
+    justify-content: center;
+}
+a{
+    color: rgba(0, 0, 0,.6);
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.8rem;
+}
